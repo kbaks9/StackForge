@@ -57,6 +57,7 @@ variable "prefix_data" {
 
 ### NSG
 
+variable "nsg_name" { type = string }
 variable "nsg_web_name" { type = string }
 variable "nsg_app_name" { type = string }
 variable "nsg_data_name" { type = string }
