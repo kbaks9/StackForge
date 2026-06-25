@@ -1,0 +1,32 @@
+## Example of terraform secrets.
+## Please name these variables.
+
+resource_group  = ""
+location        = ""
+subscription_id = ""
+
+## Network Module
+network_name       = ""
+vnet_address_space = ""
+subnet_web_name    = ""
+subnet_app_name    = ""
+subnet_data_name   = ""
+prefix_web         = ""
+prefix_app         = ""
+prefix_data        = ""
+
+## NSG Module
+nsg_name      = "" # The name of the network security group.
+nsg_web_name  = ""
+nsg_app_name  = ""
+nsg_data_name = ""
+my_ip         = "/32" # My IP address to connect to SSH only.
+
+## VM Module
+nic_name             = ""
+nic_web_name         = ""
+nic_app_name         = ""
+nic_data_name        = ""
+admin_username       = ""
+web01_admin_password = ""
+web02_admin_password = ""
