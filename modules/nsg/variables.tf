@@ -25,3 +25,7 @@ variable "rules" {
     destination_address_prefix = string
   }))
 }
+
+variable "subnet_id" {
+  type = string
+}
