@@ -1,0 +1,4 @@
+1. Add VMs to subnets.
+2. Link VMs to subnets.
+3. Make sure NSG is being applied to their respective VMs.
+3 i. How do I know that NSG rule is being applied?
