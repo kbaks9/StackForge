@@ -69,3 +69,20 @@ variable "nic_name" { type = string }
 variable "nic_web_name" { type = string }
 variable "nic_app_name" { type = string }
 variable "nic_data_name" { type = string }
+
+variable "admin_username" {
+  type    = string
+  default = null
+}
+
+variable "web01_admin_password" {
+  type      = string
+  sensitive = true
+  default   = null
+}
+
+variable "web02_admin_password" {
+  type      = string
+  sensitive = true
+  default   = null
+}
